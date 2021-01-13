@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'clickIT.urls'
+ROOT_URLCONF = 'boutique_ado.urls'
 
 TEMPLATES = [
     {
@@ -95,7 +95,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'clickIT.wsgi.application'
+WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
 
 # Database
